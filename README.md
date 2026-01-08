@@ -1,12 +1,9 @@
 # Anti-Fake-Faces
 
 [![Downloads](https://img.shields.io/github/downloads/yakhyo/face-anti-spoofing/total)](https://github.com/yakhyo/face-anti-spoofing/releases)
+[![PyPI Version](https://img.shields.io/pypi/v/uniface.svg)](https://pypi.org/project/uniface/)
 
 Minimal inference utilities for silent face anti-spoofing using **MiniFASNetV1SE** and **MiniFASNetV2** models.
-
-> [!TIP]  
-> The models and functionality in this repository are **integrated into [UniFace](https://github.com/yakhyo/uniface)** — an all-in-one face analysis toolkit.  
-> [![PyPI Version](https://img.shields.io/pypi/v/uniface.svg)](https://pypi.org/project/uniface/)
 
 |             Real              |             Fake              |             Fake              |
 | :---------------------------: | :---------------------------: | :---------------------------: |
@@ -63,7 +60,7 @@ python onnx_inference.py --model weights/MiniFASNetV2.onnx --scale 2.7
 | MiniFASNetV2   | ~0.43M     | 2.7        | [PyTorch](https://github.com/yakhyo/face-anti-spoofing/releases/download/weights/MiniFASNetV2.pth) \| [ONNX](https://github.com/yakhyo/face-anti-spoofing/releases/download/weights/MiniFASNetV2.onnx)     |
 
 ## Reference
-### Based on 
+Based on 
 - [face-antispoof-onnx](https://github.com/johnraivenolazo/face-antispoof-onnx/tree/main)
 
 - [Silent-Face-Anti-Spoofing](https://github.com/minivision-ai/Silent-Face-Anti-Spoofing)
